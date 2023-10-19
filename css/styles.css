@@ -256,8 +256,8 @@ text-align: center;
     background-color:var(--navy-blue-color);
   }
   .modal-button{
-    background-color: var(--iris-color);
-        color: var(--white-color);
+    background-color: var(--cloud-color);
+        color: var(--iris-color);
         font-size: 16px;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
@@ -266,7 +266,7 @@ text-align: center;
         word-wrap: break-word
   }
   .modal-button:hover,
-  .modal-btutton:focus {
+  .modal-button:focus {
       background-color: var(--ocean-color);
       color: var(--white-color);
       cursor: pointer
