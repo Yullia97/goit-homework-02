@@ -300,6 +300,9 @@ SECTION CONTENT
 /*=======================/*
 SECTION CONTENT-WORK
 /*=======================/*/
+.content-work-list{
+    text-decoration: none;
+}
 .content-work-subtitle {
     color: var(--navy-blue-color);
         font-size: 20px;
@@ -321,6 +324,9 @@ SECTION CONTENT-WORK
 /*=======================/*
 SECTION CONTENT-WORK
 /*=======================/*/
+.content-body-list{
+    text-decoration: none;
+}
 .content-body-subtitle {
     color: var(--navy-blue-color);
         font-size: 20px;
