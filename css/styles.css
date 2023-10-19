@@ -117,14 +117,14 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    word-wrap: break-word 
+    word-wrap: break-word
     
 }
 
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background-color:var(--ocean-color);
+    background-color: var(--ocean-color);
     color: var(--white-color);
     cursor: pointer
 }
@@ -142,18 +142,16 @@ body {
         word-wrap: break-word
     }
 
-.benefits-list{
-    
-}
+.benefits-list{}
 .benefits-item{}
-.benefits-subtitle{
-    color: var(--grey-color);
-        font-size: 20px;
-        font-family: 'Roboto',sans-serif;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        word-wrap: break-word
+.benefits-subtitle {
+color: #2E2F42;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    word-wrap: break-word
 }
 .benefits-desc{
     color: var(--slate-color);
