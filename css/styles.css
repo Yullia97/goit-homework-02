@@ -192,7 +192,9 @@ text-align: center;
 .team-list{
     background-color: var(--white-color);
 }
-.team-item{}
+.team-item{
+    background-color: var(--white-color);
+}
 .team-subtitle{
     color: var(--grey-color);
         font-size: 20px;
