@@ -271,3 +271,68 @@ text-align: center;
       color: var(--white-color);
       cursor: pointer
   }
+  /*=======================/*
+SECTION CONTENT
+/*=======================/*/
+.content-list{}
+.content-link{}
+.content-subtitle{
+    color: #2E2F42;
+        font-size: 20px;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        word-wrap: break-word
+}
+.content-desc{
+    color: #434455;
+        font-size: 16px;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02;
+        word-wrap: break-word
+}
+/*=======================/*
+SECTION CONTENT-WORK
+/*=======================/*/
+.content-work-subtitle{
+    color: #2E2F42;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        word-wrap: break-word
+}
+.content-work-desc{
+    color: #434455;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02;
+        word-wrap: break-word
+}
+/*=======================/*
+SECTION CONTENT-WORK
+/*=======================/*/
+.content-body-subtitle{
+    color: #2E2F42;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        word-wrap: break-word
+}
+.content-body-desc{
+    color: #434455;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02;
+        word-wrap: break-word
+}
