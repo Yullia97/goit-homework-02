@@ -272,7 +272,9 @@ SECTION CONTENT
 .content-list{
     text-decoration: none;
 }
-.content-link{}
+.content-link{
+    text-decoration: none;
+}
 .content-subtitle{
     color: var(--navy-blue-color);
         font-size: 20px;
