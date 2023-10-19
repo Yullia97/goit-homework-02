@@ -30,7 +30,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--white-color);
-    color:var(--slate-color);
+    color:#434455;
 }
 
 /*=======================/*
@@ -171,6 +171,9 @@ body {
 /*=======================/*
 #SECTION TEAM
 /*=======================/*/
+.team{
+    background-color:var(--cloud-color);
+}
 .team-title{
 color: var(--grey-color);
     font-size: 36px;
@@ -181,7 +184,9 @@ color: var(--grey-color);
     letter-spacing: 0.02em;
     word-wrap: break-word
 }
-.team-list{}
+.team-list{
+    background-color: var(--white-color);
+}
 .team-item{}
 .team-subtitle{
     color: var(--grey-color);
@@ -234,3 +239,6 @@ color: var(--grey-color);
         letter-spacing: 0.02em;
         word-wrap: break-word
 }
+  .page-footer{
+    background-color: var(--grey-color);
+  }
