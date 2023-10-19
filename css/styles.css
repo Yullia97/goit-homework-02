@@ -132,15 +132,7 @@ body {
 #SECTION BENEFITS
 /*=======================/*/
 .benefits {}
-.benefits-title{
-    color: var(--grey-color);
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        word-wrap: break-word
-    }
+
 
 .benefits-list{}
 .benefits-item{}
