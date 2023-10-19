@@ -3,7 +3,7 @@
 /*=======================/*/
 
 :root {
-    --accent-color: ;
+    --background-color:#FFFFFF ;
     --primary-text-color: ;
     --primary-theme-color: #2E2F42;
 }
@@ -19,7 +19,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: var(--background-color);
 }
 
 /*=======================/*
