@@ -3,9 +3,19 @@
 /*=======================/*/
 
 :root {
-    --background-color:#FFFFFF ;
-    --primary-text-color: ;
-    --primary-theme-color: #2E2F42;
+     --iris-color: #4D5AE5;
+    --ocean-color:#404BBF;
+    --navy-blue-color: #2E2F42;
+    --green-color: #31D0AA;
+    --slate-color: #434455;
+    --light-slate-color: #8E8F99;
+    --cornflower-color: #E7E9FC;
+    --cloud-color: #F4F4FD;
+    --navy-biue-modal-color: #2E2F42;
+    --grey-color: #2E2F42;
+    --white-color: #FFFFFF;
+    --dairy-color: #FCFCFC;
+
 }
 
 
@@ -19,14 +29,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--background-color);
+    background-color: var(--white-color);
+    color:var(--slate-color);
 }
 
 /*=======================/*
 #SECTION HEDER
 /*=======================/*/
 .logo{
-    color: #4D5AE5;
+    color: var(--iris-color);
         font-size: 18px;
         font-family: 'Raleway',sans-serif;
         font-weight: 800;
@@ -36,7 +47,7 @@ body {
         word-wrap: break-word
 }
 .logo-studio{
-    color: #2E2F42;
+    color: var(--grey-color);
         font-size: 18px;
         font-family: 'Raleway',sans-serif;
         font-weight: 800;
@@ -47,7 +58,7 @@ body {
 }
 
 .menu-link {
-    color: #2E2F42;
+    color:var(--grey-color);
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -58,11 +69,11 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
+    color: var(--ocean-color);
 }
 
 .contakt-link {
-    color: #434455;
+    color: var(--slate-color);
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -73,7 +84,7 @@ body {
 
 .contakt-link:hover,
 .contakt-link:focus {
-    color: #404BBF;
+    color: var(--ocean-color);
 }
 .address{
     font-style: normal
@@ -81,9 +92,12 @@ body {
 /*=======================/*
 #SECTION HERO
 /*=======================/*/
+.hero{
+    background-color: var(--grey-color);
+}
 
 .main-title {
-    color: white;
+    color: var(--white-color);
     font-size: 56px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -91,11 +105,12 @@ body {
     letter-spacing: 0.02em;
     word-wrap: break-word
     
+    
 }
 
 .modal-btn {
-    background-color: #4D5AE5;
-    color: white;
+    background-color: var(--iris-color);
+    color: var(--white-color);
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -108,8 +123,8 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background-color: #404BBF;
-    color: white;
+    background-color:var(--ocean-color);
+    color: var(--white-color);
     cursor: pointer
 }
 /*=======================/*
@@ -119,7 +134,7 @@ body {
 .benefits-list{}
 .benefits-item{}
 .benefits-subtitle{
-    color: #2E2F42;
+    color: var(--grey-color);
         font-size: 20px;
         font-family: 'Roboto',sans-serif;
         font-weight: 500;
@@ -128,7 +143,7 @@ body {
         word-wrap: break-word
 }
 .benefits-desc{
-    color: #434455;
+    color: var(--slate-color);
         font-size: 16px;
         font-family: 'Roboto',sans-serif;
         font-weight: 400;
@@ -141,7 +156,7 @@ body {
 #SECTION WORK
 /*=======================/*/
 .work-title{
-    color: #2E2F42;
+    color: var(--grey-color);
         font-size: 36px;
         font-family: 'Roboto',sans-serif;
         font-weight: 700;
@@ -157,7 +172,7 @@ body {
 #SECTION TEAM
 /*=======================/*/
 .team-title{
-color: #2E2F42;
+color: var(--grey-color);
     font-size: 36px;
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
@@ -169,7 +184,7 @@ color: #2E2F42;
 .team-list{}
 .team-item{}
 .team-subtitle{
-    color: #2E2F42;
+    color: var(--grey-color);
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
@@ -178,7 +193,7 @@ color: #2E2F42;
         word-wrap: break-word
 }
 .team-desc{
-    color: #434455;
+    color: var(--slate-color);
         font-size: 16px;
         font-family: 'Roboto',sans-serif;
         font-weight: 400;
@@ -191,7 +206,7 @@ color: #2E2F42;
 #FOOTER
 /*=======================/*/
 .logo-footer{
-    color: #4D5AE5;
+    color: var(--iris-color);
         font-size: 18px;
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
@@ -201,7 +216,7 @@ color: #2E2F42;
         word-wrap: break-word
 }
 .logo-studio-footer{
-    color: #F4F4FD;;
+    color: var(--cloud-color);
         font-size: 18px;
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
@@ -211,7 +226,7 @@ color: #2E2F42;
         word-wrap: break-word
 }
 .footer-desc{
-    color: #F4F4FD;
+    color:var(--cloud-color);
         font-size: 16px;
         font-family: 'Roboto',sans-serif;
         font-weight: 400;
