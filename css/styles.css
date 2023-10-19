@@ -275,7 +275,9 @@ text-align: center;
   /*=======================/*
 SECTION CONTENT
 /*=======================/*/
-.content-list{}
+.content-list{
+    text-decoration: none;
+}
 .content-link{}
 .content-subtitle{
     color: var(--navy-blue-color);
