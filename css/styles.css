@@ -93,11 +93,12 @@ body {
 #SECTION HERO
 /*=======================/*/
 .hero{
-    background-color: var(--grey-color);
+    background-color:var(--navy-blue-color);
 }
 
 .main-title {
     color: var(--white-color);
+    text-align: center;
     font-size: 56px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -131,7 +132,19 @@ body {
 #SECTION BENEFITS
 /*=======================/*/
 .benefits {}
-.benefits-list{}
+.benefits-title{
+    color: var(--grey-color);
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        word-wrap: break-word
+    }
+
+.benefits-list{
+    
+}
 .benefits-item{}
 .benefits-subtitle{
     color: var(--grey-color);
@@ -157,12 +170,13 @@ body {
 /*=======================/*/
 .work-title{
     color: var(--grey-color);
+    text-align: center;
         font-size: 36px;
         font-family: 'Roboto',sans-serif;
         font-weight: 700;
         text-transform: capitalize;
         line-height: 1.11;
-        letter-spacing:0.02em;
+        letter-spacing: 0.02em;
         word-wrap: break-word
 }
 .work-list{}
@@ -176,6 +190,7 @@ body {
 }
 .team-title{
 color: var(--grey-color);
+text-align: center;
     font-size: 36px;
     font-family: 'Roboto',sans-serif;
     font-weight: 700;
@@ -240,5 +255,5 @@ color: var(--grey-color);
         word-wrap: break-word
 }
   .page-footer{
-    background-color: var(--grey-color);
+    background-color:var(--navy-blue-color);
   }
