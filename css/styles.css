@@ -280,11 +280,11 @@ SECTION CONTENT
 .content-subtitle {
     color: var(--navy-blue-color);
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    word-wrap: break-word
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        word-wrap: break-word
 }
 
 .content-desc {
