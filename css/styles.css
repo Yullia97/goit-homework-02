@@ -276,13 +276,6 @@ body {
 /*=======================/*
 SECTION CONTENT
 /*=======================/*/
-.content-list {
-    text-decoration: none;
-}
-
-.content-link {
-    text-decoration: none;
-}
 
 .content-subtitle {
     color: var(--navy-blue-color);
