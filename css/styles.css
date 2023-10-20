@@ -3,8 +3,8 @@
 /*=======================/*/
 
 :root {
-     --iris-color: #4D5AE5;
-    --ocean-color:#404BBF;
+    --iris-color: #4D5AE5;
+    --ocean-color: #404BBF;
     --navy-blue-color: #2E2F42;
     --green-color: #31D0AA;
     --slate-color: #434455;
@@ -30,35 +30,36 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--white-color);
-    color:#434455;
+    color: #434455;
 }
 
 /*=======================/*
 #SECTION HEDER
 /*=======================/*/
-.logo{
+.logo {
     color: var(--iris-color);
-        font-size: 18px;
-        font-family: 'Raleway',sans-serif;
-        font-weight: 800;
-        text-transform: uppercase;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        word-wrap: break-word
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    word-wrap: break-word
 }
-.logo-studio{
+
+.logo-studio {
     color: var(--grey-color);
-        font-size: 18px;
-        font-family: 'Raleway',sans-serif;
-        font-weight: 800;
-        text-transform: uppercase;
-        line-height:1.17;
-        letter-spacing: 0.03em;
-        word-wrap: break-word
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    word-wrap: break-word
 }
 
 .menu-link {
-    color:var(--grey-color);
+    color: var(--grey-color);
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -86,14 +87,16 @@ body {
 .contakt-link:focus {
     color: var(--ocean-color);
 }
-.address{
+
+.address {
     font-style: normal
 }
+
 /*=======================/*
 #SECTION HERO
 /*=======================/*/
-.hero{
-    background-color:var(--navy-blue-color);
+.hero {
+    background-color: var(--navy-blue-color);
 }
 
 .main-title {
@@ -105,8 +108,6 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     word-wrap: break-word
-    
-    
 }
 
 .modal-btn {
@@ -118,7 +119,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     word-wrap: break-word
-    
 }
 
 
@@ -128,12 +128,13 @@ body {
     color: var(--white-color);
     cursor: pointer
 }
+
 /*=======================/*
 #SECTION BENEFITS
 /*=======================/*/
 
 .benefits-subtitle {
-color: var(--navy-blue-color);
+    color: var(--navy-blue-color);
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -141,150 +142,164 @@ color: var(--navy-blue-color);
     letter-spacing: 0.02em;
     word-wrap: break-word
 }
-.benefits-desc{
+
+.benefits-desc {
     color: var(--slate-color);
-        font-size: 16px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        word-wrap: break-word
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word
 }
 
 /*=======================/*
 #SECTION WORK
 /*=======================/*/
-.work-title{
+.work-title {
     color: var(--grey-color);
     text-align: center;
-        font-size: 36px;
-        font-family: 'Roboto',sans-serif;
-        font-weight: 700;
-        text-transform: capitalize;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        word-wrap: break-word
-}
-
-
-/*=======================/*
-#SECTION TEAM
-/*=======================/*/
-.team{
-    background-color:var(--cloud-color);
-}
-.team-title{
-color: var(--grey-color);
-text-align: center;
     font-size: 36px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.02em;
     word-wrap: break-word
 }
-.team-list{
-    background-color: var(--white-color);
+
+
+/*=======================/*
+#SECTION TEAM
+/*=======================/*/
+.team {
+    background-color: var(--cloud-color);
 }
-.team-item{
-    background-color: var(--white-color);
-}
-.team-subtitle{
+
+.team-title {
     color: var(--grey-color);
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        word-wrap: break-word
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    word-wrap: break-word
 }
-.team-desc{
+
+.team-list {
+    background-color: var(--white-color);
+}
+
+.team-item {
+    background-color: var(--white-color);
+}
+
+.team-subtitle {
+    color: var(--grey-color);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    word-wrap: break-word
+}
+
+.team-desc {
     color: var(--slate-color);
-        font-size: 16px;
-        font-family: 'Roboto',sans-serif;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing:0.02em;
-        word-wrap: break-word
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word
 }
 
 /*=======================/*
 #FOOTER
 /*=======================/*/
-.logo-footer{
+.logo-footer {
     color: var(--iris-color);
-        font-size: 18px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        text-transform: uppercase;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        word-wrap: break-word
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    word-wrap: break-word
 }
-.logo-studio-footer{
+
+.logo-studio-footer {
     color: var(--cloud-color);
-        font-size: 18px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        text-transform: uppercase;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        word-wrap: break-word
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    word-wrap: break-word
 }
-.footer-desc{
-    color:var(--cloud-color);
-        font-size: 16px;
-        font-family: 'Roboto',sans-serif;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        word-wrap: break-word
+
+.footer-desc {
+    color: var(--cloud-color);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word
 }
-  .page-footer{
-    background-color:var(--navy-blue-color);
-  }
-  .modal-button{
+
+.page-footer {
+    background-color: var(--navy-blue-color);
+}
+
+.modal-button {
     background-color: var(--cloud-color);
-        color: var(--iris-color);
-        font-size: 16px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        word-wrap: break-word
-  }
-  
-  .modal-button:hover,
-  .modal-button:focus {
-      background-color: var(--ocean-color);
-      color: var(--white-color);
-      cursor: pointer
-  }
-  /*=======================/*
+    color: var(--iris-color);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    word-wrap: break-word
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    background-color: var(--ocean-color);
+    color: var(--white-color);
+    cursor: pointer
+}
+
+/*=======================/*
 SECTION CONTENT
 /*=======================/*/
-.content-list{
+.content-list {
     text-decoration: none;
 }
-.content-link{
+
+.content-link {
     text-decoration: none;
 }
-.content-subtitle{
+
+.content-subtitle {
     color: var(--navy-blue-color);
-        font-size: 20px;
-        font-family: 'Roboto',sans-serif;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        word-wrap: break-word
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    word-wrap: break-word
 }
+
 .content-desc {
     color: var(--slate-color);
-        font-size: 16px;
-        font-family: 'Roboto',sans-serif;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02;
-        word-wrap: break-word
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    word-wrap: break-word
 }
