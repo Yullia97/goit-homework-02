@@ -132,18 +132,7 @@ body {
 /*=======================/*
 #SECTION BENEFITS
 /*=======================/*/
-.benefits-title{
- color: var(--grey-color);
- text-align: center;
- font-size: 36px;
- font-family: 'Roboto',
- sans-serif;
- font-weight: 700;
- text-transform: capitalize;
- line-height: 1.11;
- letter-spacing: 0.02em;
- word-wrap: break-word
-}
+
 
 
 .benefits-subtitle {
@@ -163,6 +152,7 @@ body {
     font-weight:400;
     line-height:1.5;
     letter-spacing:0.02em;
+    word-wrap: break-word
     
 }
 
@@ -177,8 +167,8 @@ body {
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1.11;
-    letter-spacing: 0.02em;
-    word-wrap: break-word
+    letter-spacing:0.02em;
+     word-wrap: break-word;
 }
 
 
