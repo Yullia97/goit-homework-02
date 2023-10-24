@@ -17,7 +17,23 @@
     --dairy-color: #FCFCFC;
 
 }
-
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0%;
+}
+ul,ol{
+    margin: 0%;
+    padding-left: 0%;
+}
+.container{
+    max-width: 1440;
+    padding:0 156px;
+    margin-right:0 auto;
+}
 
 .list {
     list-style: none;
@@ -36,7 +52,24 @@ body {
 /*=======================/*
 #SECTION HEDER
 /*=======================/*/
+
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    margin-right: 332px;
+    display: flex;
+    gap: 40px;
+}
+.contakt{
+    display: flex;
+    gap: 40px;
+}
 .logo {
+    padding: 25.5px 0;
+    margin-right: auto;
     color: var(--iris-color);
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
@@ -56,6 +89,10 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     word-wrap: break-word
+}
+.menu-item{
+    display: block;
+    padding: 24px 0;
 }
 
 .menu-link {
@@ -89,14 +126,19 @@ body {
 }
 
 .address {
-    font-style: normal
+    font-style: normal;
+     
 }
 
 /*=======================/*
 #SECTION HERO
 /*=======================/*/
-.hero {
+.container-hero{
     background-color: var(--navy-blue-color);
+    padding: 188px 472px 292px 472px;
+}
+.hero {
+    padding-bottom: 120px;
 }
 
 .main-title {
@@ -107,10 +149,13 @@ body {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-bottom: 48px;
+    min-width: 496px;
 }
 
 .modal-btn {
+    box-sizing:border-box ;
     background-color: var(--iris-color);
     color: var(--white-color);
     font-size: 16px;
@@ -118,7 +163,17 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    word-wrap: break-word
+    word-wrap: break-word;
+    padding: 16px 32px;
+    border: 4px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    display: inline-flex;
+    align-items: flex-start;
+        gap: 10px;
+      top: 428px;
+      left: 636px;
+      min-width: 169px;
 }
 
 
@@ -132,7 +187,17 @@ body {
 /*=======================/*
 #SECTION BENEFITS
 /*=======================/*/
-
+.container-benefits{
+   margin-bottom: 120px;
+}
+.benefits-list{
+    display: flex;
+    gap: 24px;
+    
+}
+.benefits-item{
+width: calc((100% - 24px * 3) / 4);
+}
 
 
 .benefits-subtitle {
@@ -142,7 +207,8 @@ body {
     font-weight:500;
     line-height:1.2;
     letter-spacing:0.02em;
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-bottom: 8px;
 }
 
 .benefits-desc {
@@ -159,6 +225,9 @@ body {
 /*=======================/*
 #SECTION WORK
 /*=======================/*/
+.work-container{
+    margin-bottom: 120px;
+}
 .work-title {
     color: var(--grey-color);
     text-align: center;
@@ -169,14 +238,24 @@ body {
     line-height: 1.11;
     letter-spacing:0.02em;
      word-wrap: break-word;
+     margin-bottom: 72px;
+     min-width: 323px;
+}
+.work-list{
+    display: flex;
+    gap: 24px;
 }
 
+.work-item{
+    width: calc((100% - 24px * 2) / 3);
+}
 
 /*=======================/*
 #SECTION TEAM
 /*=======================/*/
 .team {
     background-color: var(--cloud-color);
+    margin-bottom: 120px;
 }
 
 .team-title {
@@ -188,15 +267,28 @@ body {
     text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-bottom: 72px;
+    min-width: 162px;
 }
 
 .team-list {
     background-color: var(--white-color);
+    display: flex;
+    gap: 24px;
 }
 
 .team-item {
     background-color: var(--white-color);
+    width: calc((100% - 24px * 3) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    
+    
+      
 }
 
 .team-subtitle {
@@ -206,7 +298,12 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    text-align: center;
+    
+    
 }
 
 .team-desc {
@@ -216,7 +313,8 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    word-wrap: break-word
+    word-wrap: break-word;
+    text-align: center;
 }
 
 /*=======================/*
@@ -316,4 +414,16 @@ p{
     line-height: 1.5;
     letter-spacing: 0.02;
     word-wrap: break-word
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
