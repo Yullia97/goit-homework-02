@@ -194,15 +194,17 @@ max-width: 496px;
 #SECTION BENEFITS
 /*=======================/*/
 .container-benefits{
-   margin-bottom: 120px;
+padding: 120px 0;
 }
 .benefits-list{
     display: flex;
     gap: 24px;
+    margin-right: 24px
     
 }
 .benefits-item{
-width: calc((100% - 24px * 3) / 4);
+width:calc((100% - 3 * 24px) / 4);
+margin-bottom: 8px;
 }
 
 
