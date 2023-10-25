@@ -48,7 +48,9 @@ body {
     background-color: var(--white-color);
     color: #434455;
 }
-
+.img{
+    display: block;
+}
 /*=======================/*
 #SECTION HEDER
 /*=======================/*/
