@@ -203,16 +203,16 @@ max-width: 496px;
 /*=======================/*
 #SECTION BENEFITS
 /*=======================/*/
-.container-benefits{
+.container-benefits {
 padding: 120px 0;
 }
-.benefits-list{
+.benefits-list {
     display: flex;
     gap: 24px;
     
     
 }
-.benefits-item{
+.benefits-item {
 width: calc((100% - 72px) / 4);
 
 }
@@ -417,6 +417,10 @@ width: calc((100% - 72px) / 4);
 /*=======================/*
 SECTION CONTENT
 /*=======================/*/
+.content{
+    padding-top: 96px;
+        padding-bottom: 120px;
+}
 h2 {
     color: var(--navy-blue-color);
     font-size: 20px;
@@ -464,6 +468,13 @@ p{
     gap: 24px;
     flex-wrap: wrap;
     margin-bottom: 120px;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.container-link{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .content-link{
     display: flex;
@@ -496,9 +507,10 @@ p{
 }
 .button-list{
     
-    display: inline-flex;
-    align-items: flex-start;
+    display: flex;
+    justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
     
 }
 .button-link{
@@ -512,4 +524,10 @@ p{
 .modal-button{
 padding: 12px 24px;
     text-align: center;
+    border: 1px solid var(--cornflower-color);
+    border-radius: 4px;
+}
+.modal-button:hover,
+.modal-button:focus{
+    border: 1px solid transparent
 }
