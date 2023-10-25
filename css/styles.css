@@ -30,7 +30,7 @@ ul,ol{
     padding-left: 0%;
 }
 .container{
-    min-width: 1158px;
+    width: 1158px;
     padding: 0 15px;
     margin-right:0 auto;
 }
@@ -61,7 +61,7 @@ body {
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
     margin: 0 auto;
-    min-width: 1158px;
+    width: 1158px;
 }
 .page-nav{
     display: flex;
@@ -79,7 +79,7 @@ body {
 }
 .logo {
     padding: 25.5px 0;
-    margin-right: 76px
+    margin-right: 76px;
     color: var(--iris-color);
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
@@ -268,7 +268,7 @@ margin-bottom: 8px;
 /*=======================/*/
 .team {
     background-color: var(--cloud-color);
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -306,6 +306,10 @@ margin-bottom: 8px;
     
       
 }
+.team-work{
+    padding: 32px 0;
+
+}
 
 .team-subtitle {
     color: var(--grey-color);
@@ -318,6 +322,7 @@ margin-bottom: 8px;
     word-wrap: break-word;
      margin-bottom: 8px;
      margin-top: 32px;
+    text-align: center;
     
     
     
