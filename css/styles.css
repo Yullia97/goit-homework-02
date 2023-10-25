@@ -465,7 +465,7 @@ p{
     display: flex;
     width: 1128px;
     flex-shrink: 0;
-    gap: 24px;
+    
     flex-wrap: wrap;
     margin-bottom: 120px;
     column-gap: 24px;
