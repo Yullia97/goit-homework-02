@@ -54,18 +54,22 @@ body {
 /*=======================/*
 #SECTION HEDER
 /*=======================/*/
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
 
 
 .header-container{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
+    
     margin: 0 auto;
     width: 1158px;
 }
 .page-nav{
     display: flex;
     align-items: center;
+    
 }
     
 .menu{
@@ -87,7 +91,7 @@ body {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 .logo-studio {
