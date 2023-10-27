@@ -220,6 +220,17 @@ padding: 120px 0;
 width: calc((100% - 72px) / 4);
 
 }
+.benefits-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+width: 264px;
+    height: 112px;
+    border-radius: 4px;
+        background: var(--CLOUD, #F4F4FD);
+}
+.benefits-icon{}
 
 
 .benefits-subtitle {
@@ -339,10 +350,114 @@ width: calc((100% - 72px) / 4);
     
     line-height: 1.5;
     letter-spacing: 0.02em;
-   
+   margin-bottom: 8px;
     text-align: center;
 }
+.list-item-icon{
 
+    display: flex;
+        gap: 24px;
+        margin-left: 16px;
+     
+   
+}
+.item-icon{
+    width: calc((100% - 24px * 3) / 4);
+    height: 40px;
+        width: 40px;
+    
+}
+.wrapper-icon{
+    display: flex;
+    align-items: flex-start;
+    border-radius: 50px;
+    border: 20px solid var(--iris-color);
+    justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        
+}
+.wrapper-icon:hover,
+.wrapper-icon:focus{
+    border: 20px solid var(--ocean-color);
+}
+.team-icon{
+    justify-content: center;
+        align-items: center;
+        width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+            fill: #F4F4FD;
+}
+.link-icon{
+    height: 40px;
+        width: 40px;
+}
+/*=======================/*
+#ICONS
+/*=======================/*/
+.icons{
+    padding: 120px 0;
+   width: 1128px;
+        
+        flex-shrink: 0;
+}
+.container-icons-section{
+ 
+}
+
+.icons-title{
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px;
+           margin-bottom: 72px;
+            letter-spacing: 0.72px;
+            text-transform: capitalize;
+            min-width: 183px;
+}
+.list-icons{
+    display: flex;
+    gap: 24px;
+           
+}
+.item-icons{
+    width: calc((100% - 24px * 5) / 6);
+
+   
+}
+.link-icons{
+
+}
+.container-icons{
+display: flex;
+    align-items: flex-start;
+border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+        justify-content: center;
+            align-items: center;
+            height: 88px;
+            width: 168px;
+           
+}
+.container-icons,.icons-icon:hover,
+.container-icons,.icons-icon:focus {
+   
+  
+   
+}
+.icons-icon{
+    display: inline-flex;
+        padding: 9px 9px 6px 11px;
+        justify-content: center;
+        align-items: center;
+        fill: #8E8F99;
+        
+}
 /*=======================/*
 #FOOTER
 /*=======================/*/
@@ -459,7 +574,8 @@ p{
 
 .modal-button:hover,
 .modal-button:focus {
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .content-list {
     display: flex;
