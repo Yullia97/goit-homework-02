@@ -51,6 +51,7 @@ body {
 .img{
     display: block;
 }
+
 /*=======================/*
 #SECTION HEDER
 /*=======================/*/
@@ -107,6 +108,26 @@ body {
 .menu-item{
     display: block;
     padding: 24px 0;
+   
+}
+.current {
+    position: relative;
+    
+    
+}
+
+
+
+.current::after {
+    content: ;
+    position: absolute;
+margin-bottom: 20px;
+flex-shrink: 0;
+    width: 100%;
+    height: 4px;
+outline: 1px solid;
+    border-radius: 2px;
+    background: var(--OCEAN, #404BBF);
 }
 
 .menu-link {
@@ -399,8 +420,7 @@ width: 264px;
 /*=======================/*/
 .icons{
     padding: 120px 0;
-   width: 1128px;
-        
+  
         flex-shrink: 0;
 }
 .container-icons-section{
@@ -458,9 +478,13 @@ border-radius: 4px;
         fill: #8E8F99;
         
 }
+
 /*=======================/*
 #FOOTER
 /*=======================/*/
+.footer-div{
+display: flex;
+}
 .logo-footer {
     color: var(--iris-color);
     font-size: 18px;
@@ -528,6 +552,54 @@ border-radius: 4px;
     cursor: pointer
 }
 
+
+.container-text-icon{
+
+
+}
+.footer-text {
+    color: var(--cloud-color);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
+    width: 96px;
+    height: 24px;
+    margin-bottom: 16px;
+}
+.footer-item-icons{
+    display: inline-flex;
+        align-items: flex-start;
+        gap: 16px;
+        
+        
+}
+.wrapper-footer-icon{
+    display: flex;
+        align-items: flex-start;
+        border-radius: 50px;
+        border: 20px solid var(--iris-color);
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+}
+.team-footer-icon{
+    justify-content: center;
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        fill: #F4F4FD;
+    }
+.wrapper-footer-icon:hover,
+.wrapper-footer-icon:focus {
+    border: 20px solid var(--green-color);
+}
+
+
 /*=======================/*
 SECTION CONTENT
 /*=======================/*/
@@ -579,11 +651,11 @@ p{
 }
 .content-list {
     display: flex;
-    width: 1128px;
+   
     flex-shrink: 0;
 
     flex-wrap: wrap;
-    margin-bottom: 120px;
+   
     column-gap: 24px;
     row-gap: 48px;
 }
