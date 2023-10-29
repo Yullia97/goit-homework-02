@@ -447,29 +447,32 @@ width: 264px;
 }
 .item-icons{
     width: calc((100% - 24px * 5) / 6);
-
+display: flex;
+    align-items: flex-start;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+    width: 168px;
    
 }
 .link-icons{
 
 }
 .container-icons{
-display: flex;
-    align-items: flex-start;
-border-radius: 4px;
-    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-        justify-content: center;
-            align-items: center;
-            height: 88px;
-            width: 168px;
-           
+
 }
-.container-icons,.icons-icon:hover,
-.container-icons,.icons-icon:focus {
-   
+
+  .item-icons:hover {
+    color: var(--ocean-color);
+  } 
+  .icons-icon:hover{
+    fill: #404BBF;
+  }
   
    
-}
+
 .icons-icon{
     display: inline-flex;
         padding: 9px 9px 6px 11px;
@@ -726,4 +729,56 @@ transform: translateY(0);
 .hero-buttons{
     padding: 96px 427px 72px 427px;}
 
+.backdrop{
+    background-color: #2E2F4266;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.modall{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 408px;
+        height: 584px;
+        flex-shrink: 0;
+        border-radius: 4px;
+            background: var(--DAIRY, #FCFCFC);
+            box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+}
+.modall-btn{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+        height: 24px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 50%;
+       background-color: #E7E9FC;
+       border: none;
+            stroke-width: 1px;
+            stroke: rgba(0, 0, 0, 0.10);
+}
+.icon-close{
+    fill: #2E2F42;
+    
+}
+.modall-btn:hover{
+    background-color: var(--ocean-color);
+}
+.modall-btn:hover .icon-close{
+    fill: #FFFFFF;
+    
+}
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
 
+}
