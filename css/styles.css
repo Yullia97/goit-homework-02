@@ -391,15 +391,15 @@ body {
   fill: #f4f4fd;
 }
 .link-icon {
+  border-radius: 50px;
   display: flex;
   align-items: flex-start;
-  border-radius: 50px;
-
   justify-content: center;
   align-items: center;
   height: 40px;
   width: 40px;
   background-color: var(--iris-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-icon:hover,
 .link-icon:focus {
@@ -410,7 +410,6 @@ body {
 /*=======================/*/
 .icons {
   padding: 120px 0;
-
   flex-shrink: 0;
 }
 
@@ -451,6 +450,8 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--light-slate-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icons:hover,
