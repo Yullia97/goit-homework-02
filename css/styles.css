@@ -719,6 +719,16 @@ p{
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.link-img{
+    display: block;
+
+}
+.link-img:hover,
+.link-img:focus{
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08); ;
+}
 .content-tumb{
     position: relative;
     overflow: hidden;
@@ -781,8 +791,7 @@ transform: translateY(0);
     position: fixed;
     left: 0;
     top: 0;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modall{
     position: absolute;
@@ -813,8 +822,7 @@ transform: translateY(0);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
         cursor: pointer;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 .icon-close{
