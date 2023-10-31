@@ -391,7 +391,7 @@ body {
   fill: #f4f4fd;
 }
 .link-icon {
-  border-radius: 50px;
+  border-radius: 50%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -564,7 +564,7 @@ body {
 .link-footer-icon {
   display: flex;
   align-items: flex-start;
-  border-radius: 50px;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
   height: 40px;
