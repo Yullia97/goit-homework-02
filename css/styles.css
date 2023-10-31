@@ -381,21 +381,7 @@ body {
   height: 40px;
   width: 40px;
 }
-.wrapper-icon {
-  display: flex;
-  align-items: flex-start;
-  border-radius: 50px;
-  border: 20px solid var(--iris-color);
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  width: 40px;
-}
 
-.wrapper-icon:hover,
-.wrapper-icon:focus {
-  border: 20px solid var(--ocean-color);
-}
 .team-icon {
   justify-content: center;
   align-items: center;
@@ -405,13 +391,15 @@ body {
   fill: #f4f4fd;
 }
 .link-icon {
+  display: flex;
+  align-items: flex-start;
+  border-radius: 50px;
+
+  justify-content: center;
+  align-items: center;
   height: 40px;
   width: 40px;
   background-color: var(--iris-color);
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .link-icon:hover,
 .link-icon:focus {
