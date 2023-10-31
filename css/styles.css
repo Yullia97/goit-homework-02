@@ -659,7 +659,7 @@ p {
 }
 .content-desc {
 }
-.desk {
+.desk-overlay {
   position: absolute;
   top: 0;
   font-size: 16px;
