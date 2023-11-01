@@ -704,6 +704,9 @@ p {
 .content-link:hover .overlay {
   transform: translateY(0);
 }
+.desk-overlay:hover .overlay {
+  transform: translateY(100%);
+}
 .content-subtitle {
   color: var(--navy-blue-color);
   font-size: 20px;
