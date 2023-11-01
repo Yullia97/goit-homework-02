@@ -710,8 +710,10 @@ p {
 .content-link:hover .overlay {
   transform: translateY(0);
 }
-.desk-overlay:hover,
-.desk-overlay:focus .overlay {
+.desk-overlay:hover {
+  transform: translateY(0%);
+}
+.desk-overlay:focus {
   transform: translateY(0%);
 }
 .content-subtitle {
