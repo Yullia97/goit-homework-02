@@ -662,8 +662,10 @@ p {
 .content-desc {
 }
 .desk-overlay {
-  position: relative;
-  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 
   top: 0;
   font-size: 16px;
@@ -672,8 +674,7 @@ p {
   color: var(--cloud-color);
   padding: 40px 32px;
   background-color: #4d5ae5;
-  height: 100%;
-  width: 100%;
+
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
