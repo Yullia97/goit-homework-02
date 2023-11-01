@@ -438,8 +438,8 @@ body {
   border: 1px solid var(--LIGHT-SLATE, #8e8f99);
   justify-content: center;
   align-items: center;
-  height: 88px;
-  width: 168px;
+  height: 100%;
+  width: 100%;
 }
 .link-icons {
   width: 100%;
