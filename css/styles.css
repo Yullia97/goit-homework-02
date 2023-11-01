@@ -708,7 +708,7 @@ p {
   transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .content-link:hover .overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 .desk-overlay:hover {
   transform: translateY(0%);
