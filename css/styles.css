@@ -603,17 +603,8 @@ body {
   gap: 24px;
 }
 .footer-lable {
-  color: var(--WHITE, #fff);
-  width: 75px;
-  height: 24px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 .footer-input {
-  display: inline-flex;
   border-radius: 4px;
   border: 1px solid var(--white-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -628,6 +619,7 @@ body {
   padding-left: 16px;
 }
 .footer-form-btn {
+  display: flex;
   color: var(--white-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -643,7 +635,7 @@ body {
   border-radius: 4px;
   background-color: var(--iris-color);
   border: none;
-  display: flex;
+
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -651,6 +643,7 @@ body {
   width: 24px;
   height: 24px;
   fill: var(--white-color);
+  margin-left: 16px;
 }
 .footer-form-btn:hover,
 .footer-form-btn:focus {
