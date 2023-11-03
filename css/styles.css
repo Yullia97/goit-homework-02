@@ -1044,3 +1044,6 @@ p {
   color: var(--white-color);
   cursor: pointer;
 }
+.modall-form-div-m {
+  margin-bottom: 16px;
+}
