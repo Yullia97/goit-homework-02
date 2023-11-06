@@ -1,6 +1,9 @@
 /*=======================/*
 #BASE
 /*=======================/*/
+.hide {
+  display: none;
+}
 
 :root {
   --iris-color: #4d5ae5;
@@ -244,11 +247,25 @@ body {
 #SECTION BENEFITS
 /*=======================/*/
 .container-benefits {
-  padding: 120px 0;
+  padding: 16px 0;
+}
+@media only screen and (min-width: 1158px) {
+  .container-benefits {
+    padding: 120px 0;
+  }
 }
 .benefits-list {
-  display: flex;
-  gap: 24px;
+  /*display: flex;*/
+  flex-wrap: wrap;
+  justify-content: center;
+  /*gap: 24px;*/
+  gap: 72px;
+}
+@media only screen and (min-width: 768px) {
+  .benefits-list {
+    row-gap: 24px;
+    column-gap: 72px;
+  }
 }
 .benefits-item {
   width: calc((100% - 72px) / 4);
@@ -262,6 +279,18 @@ body {
   height: 112px;
   border-radius: 4px;
   background: var(--CLOUD, #f4f4fd);
+}
+@media only screen and (min-width: 1158px) {
+  .benefits-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background: var(--CLOUD, #f4f4fd);
+  }
 }
 
 .benefits-subtitle {
